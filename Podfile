@@ -6,6 +6,10 @@ target 'fe elmla3eb' do
   use_frameworks!
 
   # Pods for fe elmla3eb
-	pod 'Parse'
+  pod 'XMSegmentedControl', :git => 'https://github.com/xaviermerino/XMSegmentedControl.git'
+  pod 'PKHUD'
+  pod 'FCAlertView'
 	pod 'Firebase/Database'
+    
+    
 end

@@ -1,5 +1,5 @@
 PODS:
-  - Bolts/Tasks (1.8.4)
+  - FCAlertView (1.3.1)
   - Firebase/Core (3.15.0):
     - FirebaseAnalytics (= 3.7.0)
     - FirebaseCore (= 3.5.2)
@@ -18,23 +18,35 @@ PODS:
   - GoogleToolboxForMac/Defines (2.1.1)
   - GoogleToolboxForMac/NSData+zlib (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
-  - Parse (1.14.4):
-    - Bolts/Tasks (~> 1.8)
+  - PKHUD (4.2.1)
+  - XMSegmentedControl (0.1.4)
 
 DEPENDENCIES:
+  - FCAlertView
   - Firebase/Database
-  - Parse
+  - PKHUD
+  - XMSegmentedControl (from `https://github.com/xaviermerino/XMSegmentedControl.git`)
+
+EXTERNAL SOURCES:
+  XMSegmentedControl:
+    :git: https://github.com/xaviermerino/XMSegmentedControl.git
+
+CHECKOUT OPTIONS:
+  XMSegmentedControl:
+    :commit: 26f7607583c93f80356ec0e3dc0c07ef18f28ad1
+    :git: https://github.com/xaviermerino/XMSegmentedControl.git
 
 SPEC CHECKSUMS:
-  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FCAlertView: 083c067bfd98f147abf5a66fe0e31cefac7bc809
   Firebase: 2b1cdfba1cda8589f32904a697cc753322bff9d8
   FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
   FirebaseCore: a024587e43778508700af8c6b1209f7c4516ba02
   FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
   FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
-  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  PKHUD: 957ce2a68b3c97a51839b30216120c1dbc0c3a78
+  XMSegmentedControl: 51cf4f3daf14920692a064d9252aa7b29622dda6
 
-PODFILE CHECKSUM: 9d0e3e9125d42f3f21ac24e8bbec0b1f3fb96bcc
+PODFILE CHECKSUM: baa1f0d12dbada28fc17c5b4401e68a7848649c1
 
 COCOAPODS: 1.2.0

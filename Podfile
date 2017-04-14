@@ -7,5 +7,5 @@ target 'fe elmla3eb' do
 
   # Pods for fe elmla3eb
 	pod 'Parse'
-
+	pod 'Firebase/Database'
 end

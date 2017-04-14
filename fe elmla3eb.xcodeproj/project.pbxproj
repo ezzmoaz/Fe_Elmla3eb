@@ -12,6 +12,7 @@
 		0E0DD00B1EA0CBBC005710D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DD0091EA0CBBC005710D0 /* Main.storyboard */; };
 		0E0DD00D1EA0CBBC005710D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DD00C1EA0CBBC005710D0 /* Assets.xcassets */; };
 		0E0DD0101EA0CBBC005710D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E0DD00E1EA0CBBC005710D0 /* LaunchScreen.storyboard */; };
+		378CE5DD12EB526058084DCF /* Pods_fe_elmla3eb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BD14353465C7C441F611B3 /* Pods_fe_elmla3eb.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		0E0DD00C1EA0CBBC005710D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E0DD00F1EA0CBBC005710D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E0DD0111EA0CBBC005710D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AE52513EEEF1CF4DB68A8CD /* Pods-fe elmla3eb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fe elmla3eb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fe elmla3eb/Pods-fe elmla3eb.debug.xcconfig"; sourceTree = "<group>"; };
+		31BD14353465C7C441F611B3 /* Pods_fe_elmla3eb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fe_elmla3eb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6BCACB547D576F40F211E1E /* Pods-fe elmla3eb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fe elmla3eb.release.xcconfig"; path = "Pods/Target Support Files/Pods-fe elmla3eb/Pods-fe elmla3eb.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378CE5DD12EB526058084DCF /* Pods_fe_elmla3eb.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0E0DD0041EA0CBBC005710D0 /* fe elmla3eb */,
 				0E0DD0031EA0CBBC005710D0 /* Products */,
+				B2AF7DA5C257261289F63E40 /* Pods */,
+				9B57CF621134D2B6A136F1C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "fe elmla3eb";
 			sourceTree = "<group>";
 		};
+		9B57CF621134D2B6A136F1C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BD14353465C7C441F611B3 /* Pods_fe_elmla3eb.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2AF7DA5C257261289F63E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AE52513EEEF1CF4DB68A8CD /* Pods-fe elmla3eb.debug.xcconfig */,
+				D6BCACB547D576F40F211E1E /* Pods-fe elmla3eb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E0DD0141EA0CBBC005710D0 /* Build configuration list for PBXNativeTarget "fe elmla3eb" */;
 			buildPhases = (
+				B282E8DEE4D086BEBAB6DFCA /* [CP] Check Pods Manifest.lock */,
 				0E0DCFFE1EA0CBBC005710D0 /* Sources */,
 				0E0DCFFF1EA0CBBC005710D0 /* Frameworks */,
 				0E0DD0001EA0CBBC005710D0 /* Resources */,
+				C01A99FD0007958DE23DCE6A /* [CP] Embed Pods Frameworks */,
+				3C5A04F59157DA27909EC28C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +157,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5A04F59157DA27909EC28C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fe elmla3eb/Pods-fe elmla3eb-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B282E8DEE4D086BEBAB6DFCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C01A99FD0007958DE23DCE6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fe elmla3eb/Pods-fe elmla3eb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E0DCFFE1EA0CBBC005710D0 /* Sources */ = {
@@ -258,6 +333,7 @@
 		};
 		0E0DD0151EA0CBBC005710D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AE52513EEEF1CF4DB68A8CD /* Pods-fe elmla3eb.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "fe elmla3eb/Info.plist";
@@ -270,6 +346,7 @@
 		};
 		0E0DD0161EA0CBBC005710D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6BCACB547D576F40F211E1E /* Pods-fe elmla3eb.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "fe elmla3eb/Info.plist";
